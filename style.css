@@ -1,0 +1,100 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700&family=Sono:wght@300&display=swap');
+
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container both horizontally and vertically */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the card */
+.card {
+    background-color: #c0c7c3;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card span.dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 0px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+}
+
+.logo img {
+    margin-top: 35px;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: -43px;
+    margin-right: -44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.heading span:nth-child(1),
+.heading span:nth-child(3) {
+    margin-left: 0;
+    margin-right: 0;
+    height: 45px;
+    width: 8px;
+    background: black;
+}
+
+
+.second-h {
+    background-color: black;
+    width: 103%;
+    color: white;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 19px;
+    margin-top: 30px;
+    margin-left: -22px;
+}
+
+.second-h span {
+    font-size: 15px;
+    background: black;
+    padding: 0 20px; /* Add padding for the text */
+    margin: 0; /* Reset margin for the span */
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details span {
+    font-weight: 500;
+    display: block;
+    margin: 5px 0;
+}
